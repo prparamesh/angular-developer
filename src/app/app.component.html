@@ -1,4 +1,5 @@
 Please enter name
 <input type="text" [(ngModel)]="username" />
 <input type="button" (click)="test()" value="submit" />
-<div *ngIf="username?.length > 0"> Welcome {{username}}</div> 
+<div *ngIf="username?.length > 0">Welcome {{ username }}</div>
+<router-outlet></router-outlet>
